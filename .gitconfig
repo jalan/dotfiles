@@ -1,0 +1,10 @@
+[user]
+	name = jalan
+	email = jalanpalmer@gmail.com
+[color]
+	ui = true
+[core]
+	editor = vim
+	excludesfile = /home/jason/.gitignore
+[push]
+	default = simple
