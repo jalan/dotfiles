@@ -3,7 +3,7 @@ if [[ $- != *i* ]]; then
 	return
 fi
 
-export PATH="~/npm-global/bin:${PATH}:~/bin"
+export PATH="${HOME}/npm-global/bin:${PATH}:${HOME}/bin"
 
 PROMPT_COMMAND='printf "\033]0;%s@%s %s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'
 
