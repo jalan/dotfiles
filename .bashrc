@@ -5,6 +5,8 @@ fi
 
 export PATH="~/npm-global/bin:${PATH}:~/bin"
 
+PROMPT_COMMAND='printf "\033]0;%s@%s %s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'
+
 export HISTCONTROL=ignorespace:ignoredups:erasedups
 export HISTSIZE=100000
 export HISTFILESIZE=100000
