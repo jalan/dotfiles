@@ -3,7 +3,7 @@ if [[ $- != *i* ]]; then
 	return
 fi
 
-export PATH="${PATH}:~/bin:~/npm-global/bin"
+export PATH="~/npm-global/bin:${PATH}:~/bin"
 
 export HISTCONTROL=ignorespace:ignoredups:erasedups
 export HISTSIZE=100000
