@@ -12,6 +12,8 @@ export HISTSIZE=100000
 export HISTFILESIZE=100000
 shopt -s histappend
 
+export LESS='-M -R -S --shift=1'
+
 export GOPATH=~/code/go/
 
 export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
