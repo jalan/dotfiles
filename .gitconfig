@@ -8,3 +8,6 @@
 	excludesfile = ~/.gitignore
 [push]
 	default = simple
+[log]
+	date = iso
+	decorate = auto
