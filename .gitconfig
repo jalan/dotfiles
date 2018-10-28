@@ -11,3 +11,5 @@
 [log]
 	date = iso
 	decorate = auto
+[pager]
+	branch = false
